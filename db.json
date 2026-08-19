@@ -1,0 +1,729 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "name": "Alan",
+      "surname": "Cook",
+      "province": "Chiang Mai",
+      "image": "https://i.pravatar.cc/150?img=12",
+      "levelId": 1,
+      "active": true,
+      "examHistory": [
+        {
+          "id": 1,
+          "levelId": 1,
+          "score": 60,
+          "totalQuestions": 5,
+          "result": "fail",
+          "attemptedAt": "2026-08-15T10:30:00"
+        },
+        {
+          "id": 2,
+          "levelId": 1,
+          "score": 60,
+          "totalQuestions": 5,
+          "result": "fail",
+          "attemptedAt": "2026-08-17T14:20:00"
+        }
+      ],
+      "badges": ["Beginner"]
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "name": "Vanich",
+      "surname": "Vanice",
+      "province": "Bangkok",
+      "image": "https://i.pravatar.cc/150?img=33",
+      "levelId": 1,
+      "active": true,
+      "examHistory": [
+        {
+          "id": 3,
+          "levelId": 1,
+          "score": 60,
+          "totalQuestions": 5,
+          "result": "fail",
+          "attemptedAt": "2026-08-16T09:15:00"
+        }
+      ],
+      "badges": ["Beginner"]
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "name": "Somchai",
+      "surname": "Wongsa",
+      "province": "Chiang Mai",
+      "image": "https://i.pravatar.cc/150?img=3",
+      "levelId": 2,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate"]
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "name": "Suda",
+      "surname": "Kittipong",
+      "province": "Bangkok",
+      "image": "https://i.pravatar.cc/150?img=4",
+      "levelId": 2,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate"]
+    },
+    {
+      "id": 5,
+      "username": "user5",
+      "name": "Narin",
+      "surname": "Chaiyasit",
+      "province": "Lamphun",
+      "image": "https://i.pravatar.cc/150?img=5",
+      "levelId": 3,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate", "Advanced"]
+    },
+    {
+      "id": 6,
+      "username": "user6",
+      "name": "Pim",
+      "surname": "Sukjai",
+      "province": "Phuket",
+      "image": "https://i.pravatar.cc/150?img=6",
+      "levelId": 4,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate", "Advanced", "Expert"]
+    },
+    {
+      "id": 7,
+      "username": "user7",
+      "name": "Krit",
+      "surname": "Meesuk",
+      "province": "Chiang Rai",
+      "image": "https://i.pravatar.cc/150?img=7",
+      "levelId": 1,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner"]
+    },
+    {
+      "id": 8,
+      "username": "user8",
+      "name": "Mali",
+      "surname": "Srisuk",
+      "province": "Bangkok",
+      "image": "https://i.pravatar.cc/150?img=8",
+      "levelId": 2,
+      "active": false,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate"]
+    },
+    {
+      "id": 9,
+      "username": "user9",
+      "name": "Thanakorn",
+      "surname": "Prasert",
+      "province": "Lamphun",
+      "image": "https://i.pravatar.cc/150?img=9",
+      "levelId": 3,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate", "Advanced"]
+    },
+    {
+      "id": 10,
+      "username": "user10",
+      "name": "Nicha",
+      "surname": "Suwannarat",
+      "province": "Phuket",
+      "image": "https://i.pravatar.cc/150?img=10",
+      "levelId": 4,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate", "Advanced", "Expert"]
+    },
+    {
+      "id": 11,
+      "username": "user11",
+      "name": "Arthit",
+      "surname": "Jantana",
+      "province": "Chiang Mai",
+      "image": "https://i.pravatar.cc/150?img=11",
+      "levelId": 1,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner"]
+    },
+    {
+      "id": 12,
+      "username": "user12",
+      "name": "Fah",
+      "surname": "Wattanakul",
+      "province": "Bangkok",
+      "image": "https://i.pravatar.cc/150?img=13",
+      "levelId": 2,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate"]
+    },
+    {
+      "id": 13,
+      "username": "user13",
+      "name": "Kawin",
+      "surname": "Somsak",
+      "province": "Chiang Rai",
+      "image": "https://i.pravatar.cc/150?img=14",
+      "levelId": 3,
+      "active": false,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate", "Advanced"]
+    },
+    {
+      "id": 14,
+      "username": "user14",
+      "name": "Praew",
+      "surname": "Chantarangsu",
+      "province": "Lamphun",
+      "image": "https://i.pravatar.cc/150?img=15",
+      "levelId": 4,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate", "Advanced", "Expert"]
+    },
+    {
+      "id": 15,
+      "username": "user15",
+      "name": "Teerapat",
+      "surname": "Rattanakul",
+      "province": "Bangkok",
+      "image": "https://i.pravatar.cc/150?img=16",
+      "levelId": 1,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner"]
+    },
+    {
+      "id": 16,
+      "username": "user16",
+      "name": "Mint",
+      "surname": "Piyawat",
+      "province": "Chiang Mai",
+      "image": "https://i.pravatar.cc/150?img=17",
+      "levelId": 2,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate"]
+    },
+    {
+      "id": 17,
+      "username": "user17",
+      "name": "Phanu",
+      "surname": "Kumdee",
+      "province": "Phuket",
+      "image": "https://i.pravatar.cc/150?img=18",
+      "levelId": 3,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate", "Advanced"]
+    },
+    {
+      "id": 18,
+      "username": "user18",
+      "name": "Aom",
+      "surname": "Sirisak",
+      "province": "Chiang Rai",
+      "image": "https://i.pravatar.cc/150?img=19",
+      "levelId": 4,
+      "active": false,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate", "Advanced", "Expert"]
+    },
+    {
+      "id": 19,
+      "username": "user19",
+      "name": "Pat",
+      "surname": "Thongchai",
+      "province": "Bangkok",
+      "image": "https://i.pravatar.cc/150?img=20",
+      "levelId": 1,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner"]
+    },
+    {
+      "id": 20,
+      "username": "user20",
+      "name": "Beam",
+      "surname": "Nopparat",
+      "province": "Lamphun",
+      "image": "https://i.pravatar.cc/150?img=21",
+      "levelId": 2,
+      "active": true,
+      "examHistory": [],
+      "badges": ["Beginner", "Intermediate"]
+    }
+  ],
+
+  "levels": [
+    {
+      "id": 1,
+      "name": "Level 1",
+      "passCriteria": 80,
+      "description": "Basic access level",
+      "elearning": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "description": "Introduction to A? service"
+        },
+        {
+          "id": 2,
+          "title": "Basic Usage",
+          "description": "Basic A? service usage"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Level 2",
+      "passCriteria": 80,
+      "description": "Intermediate access level",
+      "elearning": [
+        {
+          "id": 3,
+          "title": "Intermediate",
+          "description": "Intermediate A? service"
+        },
+        {
+          "id": 4,
+          "title": "Level 2 Usage",
+          "description": "Level 2 service usage"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Level 3",
+      "passCriteria": 80,
+      "description": "Advanced access level",
+      "elearning": [
+        {
+          "id": 5,
+          "title": "Advanced",
+          "description": "Advanced A? service"
+        },
+        {
+          "id": 6,
+          "title": "Level 3 Usage",
+          "description": "Level 3 service usage"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Level 4",
+      "passCriteria": 80,
+      "description": "Highest access level",
+      "elearning": [
+        {
+          "id": 7,
+          "title": "Expert",
+          "description": "Expert A? service"
+        },
+        {
+          "id": 8,
+          "title": "All Services",
+          "description": "All A? services"
+        }
+      ]
+    }
+  ],
+
+  "benefits": [
+    {
+      "id": 1,
+      "levelId": 1,
+      "description": "Access Level 1 services"
+    },
+    {
+      "id": 2,
+      "levelId": 1,
+      "description": "Access Level 1 eLearning"
+    },
+    {
+      "id": 3,
+      "levelId": 1,
+      "description": "Take Level 2 exam"
+    },
+    {
+      "id": 4,
+      "levelId": 2,
+      "description": "Access Level 2 services"
+    },
+    {
+      "id": 5,
+      "levelId": 2,
+      "description": "Access Level 2 eLearning"
+    },
+    {
+      "id": 6,
+      "levelId": 2,
+      "description": "Take Level 3 exam"
+    },
+    {
+      "id": 7,
+      "levelId": 3,
+      "description": "Access Level 3 services"
+    },
+    {
+      "id": 8,
+      "levelId": 3,
+      "description": "Access Level 3 eLearning"
+    },
+    {
+      "id": 9,
+      "levelId": 3,
+      "description": "Take Level 4 exam"
+    },
+    {
+      "id": 10,
+      "levelId": 4,
+      "description": "Access all services"
+    },
+    {
+      "id": 11,
+      "levelId": 4,
+      "description": "Access all eLearning"
+    },
+    {
+      "id": 12,
+      "levelId": 4,
+      "description": "Highest access level"
+    }
+  ],
+
+  "services": [
+    {
+      "id": 1,
+      "levelId": 1,
+      "name": "Service 1",
+      "description": "Basic service"
+    },
+    {
+      "id": 2,
+      "levelId": 1,
+      "name": "Service 2",
+      "description": "Basic service"
+    },
+    {
+      "id": 3,
+      "levelId": 1,
+      "name": "Service 3",
+      "description": "Basic service"
+    },
+    {
+      "id": 4,
+      "levelId": 2,
+      "name": "Service 4",
+      "description": "Intermediate service"
+    },
+    {
+      "id": 5,
+      "levelId": 2,
+      "name": "Service 5",
+      "description": "Intermediate service"
+    },
+    {
+      "id": 6,
+      "levelId": 2,
+      "name": "Service 6",
+      "description": "Intermediate service"
+    },
+    {
+      "id": 7,
+      "levelId": 3,
+      "name": "Service 7",
+      "description": "Advanced service"
+    },
+    {
+      "id": 8,
+      "levelId": 3,
+      "name": "Service 8",
+      "description": "Advanced service"
+    },
+    {
+      "id": 9,
+      "levelId": 3,
+      "name": "Service 9",
+      "description": "Advanced service"
+    },
+    {
+      "id": 10,
+      "levelId": 4,
+      "name": "Service 10",
+      "description": "Premium service"
+    },
+    {
+      "id": 11,
+      "levelId": 4,
+      "name": "Service 11",
+      "description": "Premium service"
+    },
+    {
+      "id": 12,
+      "levelId": 4,
+      "name": "Service 12",
+      "description": "Premium service"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": 1,
+      "levelId": 1,
+      "question": "Question 1",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 2,
+      "levelId": 1,
+      "question": "Question 2",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 3,
+      "levelId": 1,
+      "question": "Question 3",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 4,
+      "levelId": 1,
+      "question": "Question 4",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 5,
+      "levelId": 1,
+      "question": "Question 5",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+
+    {
+      "id": 6,
+      "levelId": 2,
+      "question": "Question 1",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 7,
+      "levelId": 2,
+      "question": "Question 2",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 8,
+      "levelId": 2,
+      "question": "Question 3",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 9,
+      "levelId": 2,
+      "question": "Question 4",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 10,
+      "levelId": 2,
+      "question": "Question 5",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+
+    {
+      "id": 11,
+      "levelId": 3,
+      "question": "Question 1",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 12,
+      "levelId": 3,
+      "question": "Question 2",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "levelId": 3,
+      "question": "Question 3",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 14,
+      "levelId": 3,
+      "question": "Question 4",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 15,
+      "levelId": 3,
+      "question": "Question 5",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+
+    {
+      "id": 16,
+      "levelId": 4,
+      "question": "Question 1",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "levelId": 4,
+      "question": "Question 2",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 18,
+      "levelId": 4,
+      "question": "Question 3",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 19,
+      "levelId": 4,
+      "question": "Question 4",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 20,
+      "levelId": 4,
+      "question": "Question 5",
+      "options": [
+        "Correct Answer",
+        "Wrong Answer",
+        "Wrong Answer",
+        "Wrong Answer"
+      ],
+      "answer": 0
+    }
+  ]
+}
